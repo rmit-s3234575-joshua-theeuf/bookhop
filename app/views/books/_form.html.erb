@@ -13,7 +13,16 @@
   <% end %>
   <%=f.label "ISBN:" %>
   <%=f.text_field :isbn %>
-
+  <%=f.label "Name:" %>
+  <%=f.text_field :name %>
+  <%=f.label "Author:" %>
+  <%=f.text_field :author %>
+  <%=f.label "Date of Publication :" %>
+  <%=f.date_field :public_date %>
+  <%=f.label "Condition:" %>
+  <%=f.text_field :condition %>
+  <%=f.label "Price:" %>
+  <%=f.text_field :price %>
   <div class="actions">
     <%= f.submit %>
   </div>
