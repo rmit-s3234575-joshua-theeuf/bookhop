@@ -9,10 +9,10 @@
       <% end %>
       </ul>
     </div>
-    <%= label_tag(:isbn, "ISBN:") %>
-    <%= text_field_tag(:ISBN) %>
-    
+
   <% end %>
+  <%=f.label "ISBN:" %>
+  <%=f.text_field :ISBN %>
 
   <div class="actions">
     <%= f.submit %>
